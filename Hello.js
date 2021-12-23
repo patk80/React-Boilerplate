@@ -7,10 +7,11 @@ CLASS COMPONENTS:
 */
 class Hello extends React.Component {
     render() {
+        // console.log(this.props)
         return (
             /* Can only return ONE element. Can put a bunch of things in one <div> */
             <div>
-                <h1>Hello World</h1>
+                <h1><em>Think This</em> is from {this.props.year} </h1>
                 <p>Embedded JavaScript: (35 * 5) = {35 * 5}</p>
                 <img src="img/think-this-album-cover.jpg" />
             </div>
