@@ -8,6 +8,7 @@ CLASS COMPONENTS:
 class Hello extends React.Component {
     render() {
         return (
+            /* Can only return ONE element. Can put a bunch of things in one <div> */
             <div>
                 <h1>Hello World</h1>
                 <p>Embedded JavaScript: (35 * 5) = {35 * 5}</p>
@@ -26,6 +27,7 @@ FUNCTION COMPONENTS
 */
 function Hello2() {
     return (
+        /* Can only return ONE element. Can put a bunch of things in one <div> */
         <div>
             <h1>Hello World</h1>
             <h2>Hello World</h2>
